@@ -4,6 +4,13 @@ d3.select(".remove")
 			.remove();
 		})
 
+d3.select(".lucky")
+		.on("click", function(){
+			d3.selectAll(".note")
+			.style("font-size", function(){
+				return Math.random() * 100 + "px";
+			});
+		});
 
 d3.select("#new-note")
     .on('submit', function() {
