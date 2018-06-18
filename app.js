@@ -24,6 +24,7 @@ d3.select("#new-note")
           .classed('note', true)
           .text(input.property('value'));
       input.property('value', '');
+      setPreview("");
     });
 
 input.on('input', function(){
@@ -31,3 +32,8 @@ input.on('input', function(){
 	preview.text(note)
 		.classed("hide", note === "");
 })
+
+function setPreview(val) {
+	preview.text(val)
+	.classed("hide", val === "");
+}
