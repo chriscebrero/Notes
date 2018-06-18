@@ -26,3 +26,8 @@ d3.select("#new-note")
       input.property('value', '');
     });
 
+input.on('input', function(){
+	var note = d3.event.target.value;
+	preview.text(note)
+		.classed("hide", note === "");
+})
