@@ -12,6 +12,9 @@ d3.select(".lucky")
 			});
 		});
 
+var input = d3.select('input');
+var preview = d3.select(".preview");
+
 d3.select("#new-note")
     .on('submit', function() {
       d3.event.preventDefault();
