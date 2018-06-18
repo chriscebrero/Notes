@@ -67,3 +67,11 @@ button:focus {
 .remove:hover {
   background-color: #b20e0e;
 }
+
+.lucky {
+  background-color: #63e168;
+}
+
+.lucky:hover {
+  background-color: #4caf50;
+}
