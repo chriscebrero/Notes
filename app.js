@@ -1,3 +1,10 @@
+d3.select(".remove")
+		.on("click", function() {
+			d3.selectAll(".note")
+			.remove();
+		})
+
+
 d3.select("#new-note")
     .on('submit', function() {
       d3.event.preventDefault();
@@ -8,3 +15,4 @@ d3.select("#new-note")
           .text(input.property('value'));
       input.property('value', '');
     });
+
