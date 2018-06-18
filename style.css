@@ -28,6 +28,10 @@ h1 {
   box-sizing: border-box;
 }
 
+.hide {
+  display: none;
+}
+
 form {
   text-align: center;
 }
@@ -54,4 +58,12 @@ button:hover {
 
 button:focus {
   outline: none;
+}
+
+.remove {
+  background-color: #ff0000;
+}
+
+.remove:hover {
+  background-color: #b20e0e;
 }
