@@ -19,6 +19,13 @@ h1 {
 .note {
   background-color: #fdffb7;
   border: 8px solid #d4daa7;
+  margin: 16px 0;
+}
+
+.preview {
+  background-color: #b8ffba;
+  border: 8px solid #4caf50;
+  box-sizing: border-box;
 }
 
 form {
